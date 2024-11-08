@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: rgb(172, 231, 231);
+  }
+  
+  header {
+    background-color: #c5e1fa;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  
+  header h1 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  header p {
+    color: #555;
+    font-size: 18px;
+  }
+  
+  section {
+    background-color: rgb(240, 253, 253);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+  }
+  
+  #skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #skills li {
+    background-color: #c5e1fa;
+    padding: 8px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 4px;
+  }
+  
+  footer {
+    background-color: #c5e1fa;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  footer a {
+    color: #0080ff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  /*navigation bar style*/
+nav {
+    text-align: center;
+    word-spacing: 30px;
+    padding: 10px;
+    background-color: #8cc099;
+    font-family: Helvetica;
+    
+ }
+ /*navigation bar button style*/
+ nav a {
+    color: #524a4a;
+    text-decoration: none;
+    font-size: larger;
+ }

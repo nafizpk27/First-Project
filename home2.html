@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home2.css">
+    <title>I Me MySelf</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">I Me MySelf</div>
+        
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="home2.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="bio.html">Bio</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="new.html">Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contract.html">Contract</a></li>
+                <li><a href="help-page.html">Help</a></li>
+
+                
+                <li><a href="login.html">Log In </a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>MD. Nafiz PK</h1>
+            <button>
+                <a href=
+"https://www.facebook.com/profile.php?id=100079297010563">
+                    Explore More
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src=
+"Tutorial.png"
+                width="500">
+        </div>
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Courses</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            DSA
+                        </a>
+                    </div>
+                    <p>
+                        The term DSA stands for Data 
+                        Structures and Algorithms. As 
+                        the name itself suggests, it 
+                        is a combination of two 
+                        separate yet interrelated 
+                        topics.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            HTML
+                        </a>
+                    </div>
+                    <p>
+                        HTML stands for HyperText 
+                        Markup Language. It is used 
+                        to design web pages using 
+                        the markup language.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Javascript
+                        </a>
+                    </div>
+                    <p>
+                        JavaScript (JS) is the most 
+                        popular lightweight, interpreted 
+                        compiled programming language.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            Mamoni Chattabash, 4th Floor, Choi Gatir Mor, Sopura, 
+                            Boialia, Rajshahi, Bangladesh - 201305
+                        </div>
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            I am a highly motivated and diligent individual with a Diploma in Computer Engineering from Bangladesh Rajshahi Polytechnic Institute, seeking a challenging and rewarding career opportunity to apply my skills and knowledge in a dynamic work environment. With a strong foundation in Engineering, coupled with hands-on experience gained through internships and practical projects, I am eager to contribute to the success of a forward-thinking organization.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a href= 
+                    target="_blank">
+                    Nafiz PK
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="home2.js"></script>
+    <script>
+
+function openNavbar() {
+    document.getElementById("sideNavigationBar")
+        .style.width = "50%";
+}
+function closeNavbar() {
+    document.getElementById("sideNavigationBar")
+        .style.width = "0%";
+}
+
+    </script>
+</body>
+
+</html>

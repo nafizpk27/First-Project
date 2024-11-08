@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="contract.css">
+<form class="form-horizontal" method="post" action="contract.php">
+
+</head>
+
+
+<body>
+
+    <nav>
+        <a href="home2.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="bio.html">Bio</a>
+        <a href="team.html">Team</a>
+		<a href="new.html">Courses</a>
+        
+        <a href="about.html">About</a>
+        <a href="contract.html">Contract</a>
+        <a href="help-page.html">Help</a>
+        <a href="login.html">Login</a>
+    
+    </nav>
+
+	<section id="last">
+		<!-- heading -->
+		<div class="full">
+			<h3>Drop a Message</h3>
+
+			<div class="lt">
+
+				<!-- form starting -->
+				<form class="form-horizontal" method="post"
+					action="contract.php">
+					<div class="form-group">
+						<div class="col-sm-12">
+							<!-- name -->
+							<input type="text" class="form-control"
+								id="name" placeholder="NAME"
+								name="name" value="" />
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-sm-12">
+							<!-- email -->
+							<input type="email" class="form-control"
+								id="email" placeholder="EMAIL"
+								name="email"
+								value="" />
+						</div>
+					</div>
+
+					<!-- message -->
+					<textarea class="form-control" rows="10"
+							placeholder="MESSAGE" name="message">
+			</textarea>
+
+					<button class="btn btn-primary send-button"
+							id="submit" type="submit" value="SEND">
+						<i class="fa fa-paper-plane"></i>
+						<span class="send-text">SEND</span>
+					</button>
+				</form>
+				<!-- end of form -->
+			</div>
+
+			<!-- Contact information -->
+			<div class="rt">
+				<ul class="contact-list">
+					<li class="list-item">
+						<i class="fa fa-map-marker fa-1x">
+							<span class="contact-text place">
+								My Address
+							</span>
+						</i>
+					</li>
+
+					<li class="list-item">
+						<i class="fa fa-envelope fa-1x">
+							<span class="contact-text gmail">
+								<a href="mailto:nafizcst@gmail.com"
+								title="Send me an email">
+									nafizcst@gmail.com</a>
+							</span>
+						</i>
+					</li>
+
+					<li class="list-item">
+						<i class="fa fa-phone fa-1x">
+							<span class="contact-text phone">
+								(+88) 01710972729
+							</span>
+						</i>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
